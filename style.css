@@ -39,11 +39,19 @@ header {
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
+  background-image: linear-gradient(var(--off-white), var(--off-white));
+  background-size: 100% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition: background-size 0.2s ease-out;
 }
 
 header a:hover {
+  background-size: 0% 0.1em;
   color: yellow;
-  text-decoration: none;
+  font-size: 1.51rem;
 }
 /* end header link animations */
 
